@@ -10,4 +10,19 @@ package com.mycompany.calculadora;
  */
 public class calculadora {
     
+
+
+public static int porcentaje(int a, int b){
+    return (a*b/100);
+    
+
+}
+
+public static void main(String args[])
+    {
+
+        System.out.println("50% de 100 es = "+ porcentaje(100,50));
+    }
+
+
 }
