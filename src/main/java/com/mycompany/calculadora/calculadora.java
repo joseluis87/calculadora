@@ -20,12 +20,24 @@ public class calculadora {
             
     {
         return a-b;
+       
+    }
+               public static int Multiplicacion(int a, int b) {
+                return a*b;
+    }
+            public static int Division(int a, int b) {
+            return a/b;
     }
     
         
-       public static void main(String[] args) {		
-		System.out.println(" la Suma de 10+5 es " + suma(10,5));
-                System.out.println(" la Suma de 10-5 es " + resta(10,5));
+       public static void main(String[] args) {	
+           
+        System.out.println(" la Suma de 10+5 es " + suma(10,5));
+        System.out.println(" la Suma de 10-5 es " + resta(10,5));
+        System.out.println("la multiplicación de 10 * 5 = "+ Multiplicacion(10,5));
+        System.out.println("la division de 10 / 5 = "+ Division(10,5));
 	} 
     
+
+       
 }
