@@ -10,4 +10,20 @@ package com.mycompany.calculadora;
  */
 public class calculadora {
     
+    
+        public static int Multiplicacion(int a, int b) {
+        return a*b;
+    }
+    public static int Division(int a, int b) {
+        return a/b;
+    }
+    
+        public static void main(String args[])
+    {
+
+        
+        System.out.println("la multiplicación de 10 * 5 = "+ Multiplicacion(10,5));
+        System.out.println("la division de 10 / 5 = "+ Division(10,5));
+    }
+    
 }
