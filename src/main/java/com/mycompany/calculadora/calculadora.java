@@ -10,6 +10,7 @@ package com.mycompany.calculadora;
  */
 public class calculadora {
     
+
     public static int suma(int a, int b)
             
     {
@@ -28,6 +29,15 @@ public class calculadora {
             public static int Division(int a, int b) {
             return a/b;
     }
+            
+            
+    public static int porcentaje(int a, int b){
+    return (a*b/100);
+    
+
+
+}        
+            
     
         
        public static void main(String[] args) {	
@@ -36,8 +46,12 @@ public class calculadora {
         System.out.println(" la Suma de 10-5 es " + resta(10,5));
         System.out.println("la multiplicación de 10 * 5 = "+ Multiplicacion(10,5));
         System.out.println("la division de 10 / 5 = "+ Division(10,5));
+         System.out.println("50% de 100 es = "+ porcentaje(100,50));
 	} 
     
 
        
+
+
+
 }
