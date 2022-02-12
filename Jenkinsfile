@@ -9,7 +9,7 @@ pipeline {
                 }
             }
 
-            stage ('Compile Pro_Calculadora_Oliver') {
+            stage ('Compile Pro_Calculadora_Jose') {
                 steps {
                     sh "mvn -f pom.xml clean install -Dmaven.test.skip=true"   
                 }
